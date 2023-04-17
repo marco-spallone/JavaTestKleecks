@@ -1,5 +1,3 @@
-import org.json.simple.JSONObject;
-
 public class FormatTwo {
     public String crawlId;
     public Integer total;
@@ -41,10 +39,10 @@ public class FormatTwo {
     @Override
     public String toString() {
         return "{ \n" +
-                "crawlId: "+crawlId+", \n"+
-                "total: "+total+", \n"+
-                "totalInt: "+totalInt+", \n"+
-                "totalExt: "+totalExt+
+                "crawlId: " + crawlId + ", \n" +
+                "total: " + total + ", \n" +
+                "totalInt: " + totalInt + ", \n" +
+                "totalExt: " + totalExt +
                 "} \n";
     }
 }
